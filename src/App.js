@@ -8,6 +8,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import './styles.css';
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash

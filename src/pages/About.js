@@ -21,8 +21,8 @@ function About(props) {
   const loaded = () => (
     <div>
       <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-        {about.headshot}
+      <h3><a href="mailto:david@yakmagic.com">{about.email}</a></h3>
+        <img src={about.headshot} />
       <p>{about.bio}</p>
     </div>
   );
